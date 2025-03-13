@@ -87,7 +87,7 @@ const onSelect = () => {
     if (reticle?.visible) {
       // Load the GLTF model
       loader.load(
-        '/chair.gltf', 
+        '/Chr.glb', 
         (gltf) => {
           const chair = gltf.scene;
 
